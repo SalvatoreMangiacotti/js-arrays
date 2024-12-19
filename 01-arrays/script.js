@@ -48,17 +48,11 @@ console.log(lewisIndex);
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
 
-// CHECK CON IL METODO .lenght
-// teachers.lenght indica che ci sono 7 elementi nell'array, quindi non è vuoto
-
-const isTeachersEmpty = teachers.length;
-
 // CHECK CON L'UTILIZZO DELLE CONDIZIONI
-// (commentare *const isTeachersEmpty = teachers.length; sopra per evitare errori)
 // SE il numero degli elementi contenuti nell'array è 0, allora ritonerà TRUE,
 // ALTRIMENTI se sono presenti degli elementi FALSE
 
-// const isTeachersEmpty = teachers.length === 0;
+const isTeachersEmpty = teachers.length === 0;
 
 console.log(isTeachersEmpty);
 
