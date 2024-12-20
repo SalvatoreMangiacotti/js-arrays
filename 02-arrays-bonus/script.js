@@ -51,3 +51,77 @@ console.log(isFabioPresent);
 
 const teachersString = teachers.join();
 console.log(teachersString);
+
+// PRIMO ESERCIZIO LIVE CODING
+
+// let firstNumber = parseInt(prompt("Inserisci il primo numero :"));
+// let secondNumber = parseInt(prompt("Inserisci il secondo numero :"));
+// let numberResult;
+
+// if (firstNumber > secondNumber) {
+//   numberResult = "Il primo numero è maggiore del secondo";
+// } else if (firstNumber < secondNumber) {
+//   numberResult = "Il secondo numero è maggiore del primo";
+// } else if (firstNumber = secondNumber) {
+//   numberResult = "I due numeri sono uguali";
+// }
+
+// console.log(numberResult);
+
+
+
+// SECONDO ESERCIZIO LIVE CODING
+
+// L’utente inserisce due parole in successione, con due prompt. 
+// Il software stampa prima la parola più corta, poi la parola più lunga.
+
+// let firstWord = prompt("Inserisci la prima parola :");
+// let secondWord = prompt("Inserisci la seconda parola :");
+// let wordResult;
+
+// if (firstWord.length < secondWord.length) {
+//   wordResult = firstWord + " " + secondWord;
+// } else if (secondWord.length < firstWord.length) {
+//   wordResult = secondWord + " " + firstWord;
+// }
+
+// console.log(wordResult);
+
+
+// TERZO ESERCIZIO LIVE CODING
+
+// Crea un array vuoto. 
+// Chiedi per 6 volte all’utente di inserire un numero, 
+// se è dispari inseriscilo nell’array
+
+// const justAnEmptyArray = [];
+
+// for (let i = 0; i < 6; i++) {
+
+//   let insertNumber = parseInt(prompt("Inserisci una numero:"));
+
+//   if (insertNumber % 2 == 1) {
+
+//     justAnEmptyArray.push(insertNumber);
+
+//   }
+
+// }
+
+// console.log(justAnEmptyArray);
+
+
+// Il software deve chiedere per 5 volte all’utente di inserire un numero. 
+// Il programma stampa la somma di tutti i numeri inseriti.
+
+// let sum = 0;
+
+// for (let i = 0; i < 5; i++) {
+
+//   let insertaNumber = parseInt(prompt("Inserisci una numero:"));
+
+//   sum += insertaNumber;
+  
+// }
+
+// console.log(sum);
