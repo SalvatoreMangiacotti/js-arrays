@@ -17,16 +17,28 @@ console.log('Reversed array: ', reversedTeachers);
 // 2. Crea un nuovo array chiamato 'longNames' che contenga solo gli insegnanti
 // con un nome di lunghezza maggiore o uguale a 5 caratteri
 
+const longNames = [];
+
+for (let i = 0; i < teachers.length; i++) {
+  if (teachers[i].length >= 5) {
+    longNames.push(teachers[i]);
+  }
+}
+
+console.log(longNames);
+
+// CONTROLLO CON IL METODO .filter
+
 // lunghezzaDelNome è il nome dato alla variabile che rappresenta gli elementi dell'array,
 // => indica un "arrow function" (un modo compatto di scrivere le funzioni),
 // lunghezzaDelNome.length >= 5 è la condizione da verificare
 
-const longNames = teachers.filter((lunghezzaDelNome) => lunghezzaDelNome.length >= 5);
-console.log(longNames);
+// const longNames = teachers.filter((lunghezzaDelNome) => lunghezzaDelNome.length >= 5);
+// console.log(longNames);
 
 // 3. Rimuovi 'Ed' dall'array teachers
 
-teachers.splice(5, 5);
+teachers.splice(5, 1);
 console.log(teachers);
 
 // 4. Verifica se 'Fabio' è presente nell'array teachers
